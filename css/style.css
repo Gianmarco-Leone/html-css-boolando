@@ -148,9 +148,15 @@ footer > .container {
     margin-bottom: .5rem;
 }
 
-footer a {
+footer li > a {
     color: #fff;
-    padding: 0 .2rem;
+    font-size: .8rem;
+    padding: .3rem .6rem .3rem 0;
+}
+
+footer .icon i {
+    color: #fff;
+    padding: .3rem;
 }
 
 .footer-text {

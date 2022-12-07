@@ -1,0 +1,48 @@
+.header-nav {
+    background-color: #ff7b00;
+    position: fixed;
+    width: 100%;
+}
+
+.header-nav > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.header-nav .links {
+    min-width: 25%;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav a {
+    text-decoration: none;
+}
+
+.header-nav li > a {
+    color: #fff;
+    padding: 0 1rem;
+    font-weight: 400;
+}
+
+.header-nav .logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-nav .logo > img {
+    height: 2rem;
+}
+
+.header-nav i {
+    color: #fff;
+    padding: 0 .5rem;
+}
+
+.header-nav .right.links {
+    text-align: end;
+}

@@ -10,3 +10,15 @@
 	clear: both;
 	display: table;
 }
+
+.image-hover {
+	display: none;
+}
+
+.card-product:hover .image-hover {
+	display: block;
+}
+
+.card-product:hover .image-product {
+	display: none;
+}

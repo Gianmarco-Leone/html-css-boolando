@@ -16,9 +16,13 @@
 }
 
 .card-product:hover .image-hover {
-	display: block;
+	display: inline-block;
 }
 
 .card-product:hover .image-product {
 	display: none;
+}
+
+.heart:hover {
+	color: red;
 }

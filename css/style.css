@@ -16,10 +16,6 @@ a {
     text-align: end;
 }
 
-img {
-    display: block;
-}
-
 .card-product:hover {
     cursor: pointer;
 }

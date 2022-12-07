@@ -22,12 +22,12 @@ a {
 
 /* HEADER */
 
-.header-nav {
-    background-color: #ff7b00;
+header {
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1;
+    background-color: #ff7b00;
 }
 
 .header-nav > .container {
@@ -63,8 +63,12 @@ a {
 
 /* MAIN */
 
+main {
+    margin-top: 4.2rem;
+}
+
 main .row {
-    margin: 2rem 0 3rem 0;
+    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

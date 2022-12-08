@@ -30,7 +30,7 @@ header {
     background-color: #ff7b00;
 }
 
-.header-nav > .container {
+.container > .header-nav  {
     display: flex;
     justify-content: space-between;
     align-items: center;
